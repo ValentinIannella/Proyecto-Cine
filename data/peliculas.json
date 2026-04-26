@@ -19,5 +19,19 @@
     "genero": "Sci-Fi",
     "anio": 2014,
     "descripcion": "En un futuro donde la Tierra enfrenta una crisis ambiental, un grupo de astronautas emprende una misión para encontrar un nuevo hogar para la humanidad. A través de agujeros de gusano y planetas desconocidos, el tiempo y el espacio se comportan de formas inesperadas. El protagonista lucha entre su deber como explorador y su amor por su familia. La historia combina ciencia, emoción y supervivencia. Es una reflexión sobre el tiempo, el sacrificio y la esperanza."
+  },
+    {
+    "id": 4,
+    "titulo": "El Caballero de la Noche",
+    "genero": "Accion",
+    "anio": 2008,
+    "descripcion": "Batman enfrenta al Joker, un criminal caótico que siembra el terror en Gotham City. Una historia sobre el bien, el mal y los límites morales de un héroe."
+  },
+  {
+    "id": 5,
+    "titulo": "El Padrino",
+    "genero": "Drama",
+    "anio": 1972,
+    "descripcion": "La historia de la familia Corleone, una de las más poderosas organizaciones criminales de Nueva York. Un relato sobre poder, lealtad y las consecuencias de vivir fuera de la ley."
   }
 ]
