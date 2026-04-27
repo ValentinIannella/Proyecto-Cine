@@ -18,21 +18,7 @@ function cargarPeliculas() {
 // Endpoint 1
 app.get('/peliculas', (req, res) => {
   const peliculas = cargarPeliculas();
-  let resultado = [...peliculas];
-
-  if (req.query.genero) {
-    resultado = resultado.filter(p => p.genero === req.query.genero);
-  }
-
-  if (req.query.orden === 'asc') {
-    resultado.sort((a, b) => a.anio - b.anio);
-  }
-
-  if (req.query.orden === 'desc') {
-    resultado.sort((a, b) => b.anio - a.anio);
-  }
-
-  res.json(resultado);
+  res.json(peliculas);
 });
 
 // Endpoint 2
